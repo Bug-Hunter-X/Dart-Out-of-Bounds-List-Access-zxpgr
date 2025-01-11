@@ -1,0 +1,3 @@
+# Dart Out-of-Bounds List Access Example
+
+This repository demonstrates a common error in Dart programming: attempting to access an element in a list using an index that is out of bounds.  The code attempts to access `numbers[numbers.length]`, which is one element past the last valid index. This leads to an `RangeError` exception. The solution demonstrates safe ways to access the last element of a list.
